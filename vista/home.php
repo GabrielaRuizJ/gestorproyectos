@@ -134,19 +134,19 @@ if (!isset($_SESSION['usuario'])) {
                         </div>
                         <div class="mb-3">
                             <label for="proyectoNombre" class="form-label">Nombre del Proyecto</label>
-                            <input type="text" class="form-control" id="proyectoNombre" required value="Prueba proyecto">
+                            <input type="text" class="form-control" id="proyectoNombre" required>
                         </div>
                         <div class="mb-3">
                             <label for="proyectoDescripcion" class="form-label">Descripción</label>
-                            <textarea class="form-control" id="proyectoDescripcion" rows="3" required value="Proyecto descripcion"></textarea>
+                            <textarea class="form-control" id="proyectoDescripcion" rows="3" required ></textarea>
                         </div>
                         <div class="mb-3">
                             <label for="proyectoFechaLimite" class="form-label">Fecha Límite</label>
-                            <input type="date" class="form-control" id="proyectoFechaLimite" required value="30/07/2025">
+                            <input type="date" class="form-control" id="proyectoFechaLimite" required >
                         </div>
                         <div class="mb-3">
                             <label for="proyectoTarifa" class="form-label">Tarifa</label>
-                            <input type="number" class="form-control" id="proyectoTarifa" required value="1500000">
+                            <input type="number" class="form-control" id="proyectoTarifa" required>
                         </div>
                         <button type="submit" class="btn btn-success w-100">Crear Proyecto</button>
                     </form>
