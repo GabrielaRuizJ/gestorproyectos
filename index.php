@@ -123,30 +123,30 @@
                 <form id="registerForm">
                     <div class="mb-3">
                         <label for="registroUsuario" class="form-label">Nombre de Usuario</label>
-                        <input type="text" class="form-control" id="registroUsuario" value="Gabriela" required>
+                        <input type="text" class="form-control" id="registroUsuario" required>
                     </div>
                     <div class="mb-3 row">
                         <div class="col-lg-6">
                             <label for="registroNombre" class="form-label">Nombres</label>
-                            <input type="text" class="form-control" id="registroNombre" value="Gabriela" required>
+                            <input type="text" class="form-control" id="registroNombre"  required>
                         </div>
                         <div class="col-lg-6">
                             <label for="registroApellido" class="form-label">Apellidos</label>
-                            <input type="text" class="form-control" id="registroApellido" value="Ruiz" required>
+                            <input type="text" class="form-control" id="registroApellido" required>
                         </div>
                     </div>
                     <div class="mb-3">
                         <label for="registroEmail" class="form-label">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="registroEmail" value="gabrielazenm@gmail.com" required>
+                        <input type="email" class="form-control" id="registroEmail" required>
                     </div>
                     <div class="mb-3 row">
                         <div class="col-lg-6">
                             <label for="registroPassword" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="registroPassword" value="gaby2025" required>
+                            <input type="password" class="form-control" id="registroPassword" required>
                         </div>                            
                         <div class="col-lg-6">
                             <label for="registroConfirmPassword" class="form-label">Confirmar Contraseña</label>
-                            <input type="password" class="form-control" id="registroConfirmPassword" value="gaby2025" required>
+                            <input type="password" class="form-control" id="registroConfirmPassword"  required>
                         </div>
                     </div>
                     <button type="submit" class="btn btn-success w-100">Registrarse</button>
