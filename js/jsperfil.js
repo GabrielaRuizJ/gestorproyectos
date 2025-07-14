@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (data.success) {
                 alert('Perfil actualizado correctamente');
                 bootstrap.Modal.getInstance(document.getElementById('perfilModal')).hide();
-                location.reload();
+                location.href = location.href;
             } else {
                 alert(data.message || 'No se pudo actualizar el perfil');
             }

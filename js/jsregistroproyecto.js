@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 document.getElementById('registroFormProyecto').reset();
                 var modal = bootstrap.Modal.getInstance(document.getElementById('crearProyectoModal'));
                 modal.hide();
-                location.reload()
+                location.href = location.href;
             } else {
                 alert(data.error || data.message || 'Error en el registro');
             }
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 alert('Proyecto modificado correctamente.');
                 var modal = bootstrap.Modal.getInstance(document.getElementById('editarProyectoModal'));
                 modal.hide();
-                location.reload();
+                location.href = location.href;
             } else {
                 alert('Error: ' + (data.message || data.error));
             }

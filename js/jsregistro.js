@@ -33,6 +33,7 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
             document.getElementById('registerForm').reset();
             var modal = bootstrap.Modal.getInstance(document.getElementById('RegistroModal'));
             modal.hide();
+            location.href = location.href;
         } else {
             alert(data.error || data.message || 'Error en el registro');
         }

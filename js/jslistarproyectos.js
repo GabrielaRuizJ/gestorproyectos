@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 alert('Tarea modificada con éxito.');
                 const modal = bootstrap.Modal.getInstance(document.getElementById('editarTareaModal'));
                 modal.hide();
-                location.reload();
+                location.href = location.href;
             } else {
                 alert(data.error || 'Ocurrió un error al modificar la tarea.');
             }
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(data => {
                 if (data.success) {
                     alert('Tarea eliminada con éxito');
-                    location.reload();
+                    location.href = location.href;
                 } else {
                     alert('No se pudo eliminar la tarea: ' + data.message);
                 }

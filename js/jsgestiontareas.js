@@ -114,6 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 tareasProyectoModal.dispatchEvent(new CustomEvent('show.bs.modal', {
                     detail: { relatedTarget: document.querySelector(`[data-proyecto-id="${proyectoId}"]`) }
                 }));
+                location.href = location.href;
             } else {
                 alert('Error al registrar tarea: ' + data.error);
             }
